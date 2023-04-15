@@ -10,7 +10,7 @@ public class TaskJava2 {
         int count = 0;
         int maxValue = count;
         for (int i:array) {
-            if (i == 1) count++;
+            if (i == 1) {count++;}
             else {
                 if (count > maxValue) {
                     maxValue = count;
